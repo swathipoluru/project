@@ -95,7 +95,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px 15px;
   border: 1px solid #e0e0e0;
   border-radius: 25px;
@@ -229,4 +229,11 @@ button[type="submit"]:hover {
   margin-top: 40px;
   font-size: 12px;
   color: #888;
+}
+@media screen and (min-width:300px) {
+  .map{
+    display:flex;
+    min-width: 300px;
+  }
+  
 }

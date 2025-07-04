@@ -4,6 +4,7 @@
     box-sizing: border-box;
    
 }
+
 .header {
   display: flex;
   align-items: center;
@@ -13,7 +14,7 @@
   border-bottom: 1px solid #eee;
   position:fixed;
   width:100vw;
-  
+  z-index:1;
 }
 
 /* Logo */
@@ -34,7 +35,7 @@
 /* Navigation Links */
 .links {
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .links a {
@@ -54,7 +55,13 @@
   cursor: pointer;
   color: #333;
 }
+@media screen and (min-width:350px){
+  .header{
+    flex-wrap:wrap;
+  }
 
+  
+}
 
 
 /* mm************************************* */
@@ -69,6 +76,8 @@
   color: white;
   text-align: center;
   padding: 0 20px;
+  z-index:0;
+  width:auto;
 }
 
 /* Text Content Inside Hero Section */
@@ -164,6 +173,7 @@
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  z-index:0;
 }
 
 .logo1-card {
@@ -409,6 +419,16 @@
   margin: 50px 0;
   opacity: 0.4;
 }
+@media screen and (min-width:300px){
+  .client-logos{
+    flex-wrap:wrap;
+  }
+
+  
+}
+
+
+
 
 .contact-section {
   background-color: #fafafa;
@@ -539,3 +559,61 @@
   font-size: 12px;
   color: #888;
 }
+@media screen and (min-width:300px) {
+  .ram{
+    overflow-x:hidden;
+   
+  }
+  
+}
+@media screen  and (min-width:350px){
+  .logo1{
+    flex-wrap: wrap;
+  }
+
+  
+}
+.client-logos{
+  margin-left:-10px;
+}
+@media screen and (min-width:300px) {
+  .section{
+    flex-wrap: wrap;
+    
+  }
+
+
+}
+@media screen and (min-width:300px) {
+  .logo1-card{
+    flex-wrap: wrap;
+    
+  }
+
+
+}
+@media screen and (min-width:300px) {
+  .swathi{
+    flex-wrap: wrap;
+    
+  }
+
+
+}
+@media screen and (min-width:300px) {
+  .hii{
+    flex-wrap: wrap;
+    
+  }
+
+
+}
+@media screen and (min-width:300px) {
+  .footer{
+    flex-wrap: wrap;
+    
+  }
+
+
+}
+
