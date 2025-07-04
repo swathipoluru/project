@@ -409,7 +409,7 @@ img{
     }
 
     @media screen and (max-width: 768px) {
-  .container {
+  .container1 {
     flex-direction: column;
     padding: 10px;
   }
